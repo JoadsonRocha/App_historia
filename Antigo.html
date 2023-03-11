@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Security-Policy"
     content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
   <link rel="icon" href="/img/fav.png" type="../png">
-  <link href="paginas.css" rel="stylesheet" />
-  <link href="../styles.css" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="../bootstrap-5.2.0/css/bootstrap.min.css">
-  <title>Modelos de pages</title>
+  <link href="./styles.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="bootstrap-5.2.0/css/bootstrap.min.css">
+  <title>Parables</title>
 </head>
 <!--Cabeçalho do projeto, menu fixo ao topo-->
 <header>
@@ -19,27 +16,41 @@
     <img src="/img/parables.jpg" alt="Logo da aplicação" id="logo" />
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a class="nav-link" id="cor" href="../index.html">Inicio</a>
+        <a class="nav-link" id="cor" href="index.html">Inicio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="cor" href="../Antigo.html">Antigo Testamento</a>
+        <a class="nav-link" id="cor" href="Antigo.html">Antigo Testamento</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="cor" href="../novo.html">Novo Testamento</a>
+        <a class="nav-link" id="cor" href="novo.html">Novo Testamento</a>
       </li>
     </ul>
   </div>
 </header>
 <!--Fim do cabeçalho fixo-->
+<!--corpo da página-->
 
 <body>
-  <!--Corpo da página com Histórias-->
-  <section class="corpo">
-    <div class="margin-topo">
-      <h1 class="titulo">Em Breve</h1>
-      <div id="center"><img src="../img/EmBreve.webp" alt="os tres porquihos" class="image-top"></div>
+  <div class="container" id="margin">
+    <!--CARDS  da tela inicial-->
+    <div class="row">
+      <!--Fim de Cards de tela-->
+      <!--CARDS  da tela inicial-->
+      <div class="col">
+        <a href="pages/ A Criação.html">
+          <div class="card h-100" style="width: 18rem;padding-top: 0;">
+            <img class="card-img-top" src="img/criacao.png" alt="Os Tres Porquinhos">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align:center;">A Criação de Deus</h5>
+        </a>
+      </div>
     </div>
-  </section>
+  </div>
+  <!--CARDS  da tela inicial-->
+
+  <!--termina uma rowns-->
+  </div>
+  </div>
   <!--Rodapé do projeto-->
   <footer class="bg-light text-center text-lg-start" id="rodape">
     <!-- Copyright -->
