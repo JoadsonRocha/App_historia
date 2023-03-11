@@ -1,4 +1,6 @@
 {
     "notebook.lineNumbers": "off",
-    "workbench.editor.showTabs": true
+    "workbench.editor.showTabs": true,
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on"
 }

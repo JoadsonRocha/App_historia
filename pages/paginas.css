@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.corpo {
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 5px 5px 10px rgba(223, 108, 14, 0.26);
+}
+
+p {
+    text-indent: 25px;
+}
+
+.titulo {
+    /*Titulo da página*/
+    text-align: center;
+    color: #FEAD00;
+}
+
+div#center {
+    /*centralizar a div*/
+    text-align: center;
+}
+
+img.center {
+    text-align: center;
+
+}

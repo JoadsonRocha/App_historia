@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-/*Cabeçalho do App */
+/*Cabeçalho do App
+estilos geral para todo o site*/
+
 header {
     position: fixed;
     top: 0;
@@ -20,42 +22,43 @@ div {
     padding-top: 20px;
 }
 
-a#cor {
-    color: white;
-    font-size: 15pt;
-}
-
 #margin {
     margin-top: 80px;
 }
 
-.col-sm {
-    margin: -10px;
+/*cor dos menus*/
+a#cor {
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
 }
+
 
 /*Fim Cabeçalho do App */
 #tudo {
     text-align: center;
 }
 
+/* cor dos titulos das historias*/
 h5 {
     color: #FEAD00;
 }
 
+/*Rodapé footer*/
 #rodape {
     margin-top: 50px;
-
+}
+/*rodapé fixo embaixo*/
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
 
 /*retira a barra de rolagem*/
 body::-webkit-scrollbar {
     display: none;
-}
-
-#jubo {
-    margin-top: 100px;
-    background-color: #FEAD00;
-    padding-bottom: 10px;
 }
 
 body a {
